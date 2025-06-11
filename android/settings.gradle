@@ -1,0 +1,14 @@
+pluginManagement {
+    includeBuild('../node_modules/@react-native/gradle-plugin')
+}
+
+plugins {
+    id("com.facebook.react.settings") version "0.73.3"
+}
+
+extensions.configure(com.facebook.react.ReactSettingsExtension) {
+    // it.autolinkLibrariesFromCommand()  <--- comment this out for now
+}
+
+rootProject.name = 'CookingAssistant'
+include ':app'

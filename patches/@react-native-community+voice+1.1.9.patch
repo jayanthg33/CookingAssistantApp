@@ -1,0 +1,10 @@
+diff --git a/node_modules/@react-native-community/voice/android/src/main/AndroidManifest.xml b/node_modules/@react-native-community/voice/android/src/main/AndroidManifest.xml
+index 9a75230..0bbc6c3 100644
+--- a/node_modules/@react-native-community/voice/android/src/main/AndroidManifest.xml
++++ b/node_modules/@react-native-community/voice/android/src/main/AndroidManifest.xml
+@@ -1,5 +1,4 @@
+ <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+-    package="com.wenkesj.voice"
+     xmlns:tools="http://schemas.android.com/tools">
+ 
+     <uses-sdk tools:overrideLibrary="com.facebook.react" />
